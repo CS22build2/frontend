@@ -5,6 +5,7 @@ import Register from "./components/Register";
 
 import AboutTeam from "./components/AboutTeam";
 import AboutGame from "./components/AboutGame";
+import Map from "./components/game/Map";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
