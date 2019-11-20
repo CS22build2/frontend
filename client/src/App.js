@@ -25,7 +25,7 @@ function App() {
   }
   return (
     <div className="App">
-      <AboutGame />
+      {/* <AboutGame />
       {isLoggedIn ? (
         <div className="mapBox">
           <Map />
@@ -39,7 +39,8 @@ function App() {
         </div>
       )}
 
-      <AboutTeam />
+      <AboutTeam /> */}
+      <Map />
     </div>
   );
 }
